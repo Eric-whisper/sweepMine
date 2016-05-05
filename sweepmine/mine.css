@@ -1,0 +1,96 @@
+#main{
+	font-size:18px;
+	font-family:"SimHei";
+	background-color:#ffffff;
+	color:#333333;
+}
+.content{
+	width:60%;
+	height:500px;
+	margin:auto;
+	margin-top:100px;
+	background-color:#f7f7f7;
+	padding:20px;
+	min-width:1000px;
+}
+.tips{
+	width:210px;
+	height:100%;
+	float:left;
+	
+}
+.show{
+	padding-top:20px;
+}
+.option{
+	margin-top:20px;
+}
+.notice{
+	margin-top:50px;
+}
+ul{
+	list-style-type:none;
+	-webkit-padding-start: 5px;
+}
+ul li{
+	padding-left:0;
+}
+#begin{
+	height: 30px;
+    width: 130px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    background: hsl(0, 1%, 83%);
+}
+.remind span{
+	color:red;
+	font-size:22px;
+}
+.mineArea{
+	width:900px;
+	height:500px;
+	float:right;
+}
+#mine{
+	background-color:#ffffff;
+	border:0;
+	cellspacing:0;	
+}
+#mine  td{
+	height:20px;
+	width:20px;
+}
+#mine  tr{
+	height:20px;
+}
+#mine  td.tg{
+	background:url(image/11.png);
+}
+#mine  td.tg1{
+	background:url(image/5.png);
+	font-size:16px;
+    text-align: center;
+}
+#mine  td.tg2{
+	background:url(image/41.png);
+}
+#mine  td.tg3{
+	background:url(image/3.png);
+}
+#mine  td.tg4{
+	background:url(image/2.png);
+}
+#mine  tr{
+	height:20px;
+}
+.num1{color:#0000ff;}  
+.num2{color:#008000;}  
+.num3{color:#ff0000;}  
+.num4{color:#000080;}  
+.num5{color:#800000;}  
+.num6{color:#008080;}  
+.num7{color:#000000;}  
+.num8{color:#808080;}

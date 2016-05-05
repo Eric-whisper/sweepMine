@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta charset="gb2312" />
+    <title>JavaScript版扫雷</title>
+    <link rel="stylesheet" type="text/css" href="mine.css"/>
+	<script src="mine.js"></script>
+	<script src="jquery.js"></script>
+</head>
+<body>
+    <div id="main">
+	   <div class="content">
+	      <div class="tips">
+		        <div class="show">
+				    <div class="remind">剩余雷数：<span id="restMine">0</span>个</div>
+				    <div class="remind">持续时间：<span id="time">0</span>秒</div>
+			    </div>
+			    <div class="option">
+				     <fieldset>
+                     <legend>难度选择：</legend>
+                     初级：<input type="radio" name="level" id="llevel" checked="checked" value="1" onclick="changeLevel(this)"/><label for="llevel">初级(9*9)</label><br>
+                     中级：<input type="radio" name="level" id="2level"  value="2" onclick="changeLevel(this)" /><label for="2level">中级(16*16)</label><br>
+                     高级：<input type="radio" name="level" id="3level"  value="3" onclick="changeLevel(this)"/><label for="3level">高级(16*30)</label><br>
+                    </fieldset>
+				<!--	 <input type="button" id="begin" value="开始游戏" onclick="startGame()" /><br> -->
+			    </div>
+			    <div class="notice">
+				    <p>提示：</p>
+				    <ul>
+					  <li>1、左击翻开，右击标记地雷.</li>
+					  <li>2.游戏过程中点击难度选择将重新开始游戏.</li>
+					</ul>
+			    </div>
+		  </div>
+		  <div  class="mineArea">
+		    <table id="mine" cellspacing="0">
+			
+			  
+			</table>
+		  </div>
+	   </div>
+	
+	</div>
+   
+</body>
+</html>
